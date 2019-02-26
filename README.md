@@ -6,3 +6,6 @@ Many pages embed a whole font file, with all glyphs, for just rendering some hea
 ## How?
 * Scrap the web page with puppeteer to find all usages of the font and then use FontForge to remove all unused glyphs.
 * Run a tool in the CI to verify that all wanted glyphs exists in the font files, so that the user don't have to verify each time.
+
+## Resources
+* https://github.com/Jolg42/awesome-typography
